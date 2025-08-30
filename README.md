@@ -21,7 +21,7 @@ Consiste en un proyecto realizado en HTML, donde se realiza el sorteo de un amig
 - JavaScript
 - HTML
 ## Personas-Desarrolladores del Proyecto
-| [<img src="https://avatars.githubusercontent.com/u/226597270?s=400&v=4" width=115><br><sub>Juan Andres Castillo</sub>](https://github.com/juanandcastillo27)
+| [<img src="https://avatars.githubusercontent.com/u/226597270?s=400&u=d6aaa723551a8b4f01b9d5a7cbfbd5ef0c3380c7&v=4" width=115><br><sub>Juan Andres Castillo</sub>](https://github.com/juanandcastillo27)
 | :---: |
 
 
