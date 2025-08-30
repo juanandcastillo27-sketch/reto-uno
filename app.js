@@ -15,6 +15,7 @@ function agregarAmigo(){
     console.log(arregloAmigos);
     console.log(arregloAmigos.length);
     document.querySelector('#amigo').value = '';
+
 }
 
 function actualizarLista(listaAmigos){
@@ -31,4 +32,16 @@ function actualizarLista(listaAmigos){
         listaHTML.appendChild(elementoLi);
 
     } 
+}
+
+function sortearAmigo(){
+    if (arregloAmigos.length == 0){
+        alert("Porfavor, colocar amigos para sortear");
+    }
+    else{
+        let resultadoJS = arregloAmigos[Math.floor(Math.random() * arregloAmigos.length)];
+        let resultadoHTML = document.querySelector("#resultado");
+        resultadoHTML.innerHTML = resultadoJS;
+    }
+
 }
