@@ -10,8 +10,25 @@ function agregarAmigo(){
     }
     else{
         arregloAmigos.push(amigo);
+        actualizarLista(arregloAmigos);
     }
     console.log(arregloAmigos);
     console.log(arregloAmigos.length);
     document.querySelector('#amigo').value = '';
+}
+
+function actualizarLista(listaAmigos){
+    let listaHTML = document.getElementById("listaAmigos");
+
+    listaHTML.innerHTML = "";
+
+    for (let n = 0; n <= arregloAmigos.length; n++){
+
+        let elementoLi = document.createElement('li');
+        
+        elementoLi.textContent = arregloAmigos[n];
+
+        listaHTML.appendChild(elementoLi);
+
+    } 
 }
